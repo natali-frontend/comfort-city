@@ -7,10 +7,30 @@
   }
 }
 
-
 .header {
-  background: $black;
-  color:      $white;
+  position:        fixed;
+  top:             0;
+  left:            0;
+  z-index:         100;
+  width:           100%;
+  padding:         14px;
+  background:      rgba(0, 0, 0, 0.31);
+  backdrop-filter: blur(40px);
+  color:           $white;
+  &-inner {
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+  }
+  &-menu {
+    .menu-list {
+      display: flex;
+    }
+    .menu-item {
+      margin: 0 10px;
+      color:  $white;
+    }
+  }
 }
 
 
