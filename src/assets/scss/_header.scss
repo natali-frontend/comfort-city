@@ -17,6 +17,9 @@
   background:      rgba(0, 0, 0, 0.31);
   backdrop-filter: blur(40px);
   color:           $white;
+  .container {
+    max-width: 1775px;
+  }
   &-inner {
     display:         flex;
     justify-content: space-between;
