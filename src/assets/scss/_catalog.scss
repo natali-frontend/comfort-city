@@ -1,0 +1,37 @@
+@import "variables";
+
+@media (any-hover: hover) {
+
+}
+
+.catalog {
+  .apartments {
+    padding: 15% 0 9.4%;
+    h2 {
+      max-width:     780px;
+      text-align:    left;
+      margin-bottom: 5%;
+    }
+    &-panel {
+      margin-bottom: 9.31%;
+    }
+    &-list {
+      display:         flex;
+      justify-content: space-between;
+      flex-wrap:       wrap;
+      width:           100%;
+    }
+    &-item {
+      width: calc(33.3333% - 2.5%);
+    }
+
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+
+}
+
+@media screen and (max-width: 567px) {
+
+}
