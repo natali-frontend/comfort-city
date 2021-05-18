@@ -1,0 +1,41 @@
+@import "./variables";
+
+
+@media (any-hover: hover) {
+
+}
+
+.contact {
+  > img {
+    position:  absolute;
+    bottom:    0;
+    left:      0;
+    z-index:   -1;
+    transform: translate(0, 8%);
+  }
+  h3 {
+    font-size:     2.75rem;
+    margin-bottom: 7.5%;
+    max-width:     460px;
+  }
+  .btn {
+    padding: 22px 12px;
+  }
+  &-inner {
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+    padding:         0 5.9%;
+  }
+  &-image {
+    width: 35.1%;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+
+}
+
+@media screen and (max-width: 567px) {
+
+}
