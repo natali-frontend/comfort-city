@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="31" viewBox="0 0 31 31">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_162" data-name="Прямоугольник 162" width="31" height="31" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Группа_масок_18" data-name="Группа масок 18" clip-path="url(#clip-path)">
+    <path id="telegram" d="M12.233,20.622l-.516,7.254a1.8,1.8,0,0,0,1.441-.7l3.459-3.306,7.168,5.249c1.315.733,2.241.347,2.6-1.209l4.7-22.047h0c.417-1.943-.7-2.7-1.984-2.226L1.447,14.226c-1.887.733-1.859,1.785-.321,2.262l7.07,2.2L24.62,8.41c.773-.512,1.476-.229.9.283Z" transform="translate(-0.206 -0.902)"/>
+  </g>
+</svg>
