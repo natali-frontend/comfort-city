@@ -1,29 +1,45 @@
 @import "./variables";
 
 @media (any-hover: hover) {
-  .apartments .apartments-panel .panel-menu {
-    .panel-menu-item:hover {
-      background: $primaryColor;
-      color:      $white;
-      > span {
-        border-bottom: 2px solid $white;
-        border-left:   2px solid $white;
+  .apartments {
+    &-item {
+      .item-image {
+        a:hover {
+          img {
+            transform: scale(1.2);
+          }
+        }
+        .favorites:hover {
+          svg path {
+            fill: red;
+          }
+        }
       }
     }
-    .filter:hover {
-      .filter-list {
-        visibility: visible;
-        opacity:    1;
+    &-panel .panel-menu {
+      .panel-menu-item:hover {
+        background: $primaryColor;
+        color:      $white;
+        > span {
+          border-bottom: 2px solid $white;
+          border-left:   2px solid $white;
+        }
       }
-    }
-    .filter .filter-item:hover {
-      .item-sublist {
-        visibility: visible;
-        opacity:    1;
+      .filter:hover {
+        .filter-list {
+          visibility: visible;
+          opacity:    1;
+        }
       }
-    }
-    .filter .filter-item .item-sublist .sublist-item:hover {
-      color: $primaryColor;
+      .filter .filter-item:hover {
+        .item-sublist {
+          visibility: visible;
+          opacity:    1;
+        }
+      }
+      .filter .filter-item .item-sublist .sublist-item:hover {
+        color: $primaryColor;
+      }
     }
   }
   .apartments .apartments-panel .panel-menu .panel-menu-item {
