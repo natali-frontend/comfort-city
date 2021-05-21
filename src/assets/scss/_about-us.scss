@@ -219,8 +219,9 @@
         align-items:     center;
         padding:         20px;
         .buttons-left {
-          display:     flex;
-          align-items: center;
+          display:         flex;
+          justify-content: space-between;
+          align-items:     center;
           img {
             width:        2.1vw;
             margin-right: 11%;
