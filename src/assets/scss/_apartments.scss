@@ -159,6 +159,12 @@
     .item-image {
       margin-bottom: 13px;
       position:      relative;
+      overflow:      hidden;
+      a:active {
+        img {
+          opacity: .7;
+        }
+      }
       .discount, .favorites {
         position:      absolute;
         right:         0;
