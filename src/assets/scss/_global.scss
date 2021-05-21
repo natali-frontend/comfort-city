@@ -1,11 +1,16 @@
 @import "variables";
 
 @media (any-hover: hover) {
-  .button:hover {
-    background-color: #825c10;
-  }
   a:hover {
     opacity: .7;
+  }
+  .swiper-button-prev:hover, .swiper-button-next:hover {
+    color: $primaryColor !important;
+  }
+  .btn:hover {
+    background: $secondaryColor;
+    color:      $white;
+    opacity:    1;
   }
 }
 
