@@ -176,12 +176,16 @@
         padding:    1.46% 0;
       }
       .favorites {
-        top:        15.4%;
-        width:      12.3%;
-        background: $secondaryColor;
-        padding:    2.02% 0 2.02% 3.3%;
-        img {
-          width: 46%;
+        display:         flex;
+        justify-content: center;
+        top:             68px;
+        width:           12.3%;
+        background:      $secondaryColor;
+        padding:         1.8% 0;
+        cursor:          pointer;
+        svg {
+          width:  33%;
+          height: 1%;
         }
       }
     }
