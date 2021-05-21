@@ -217,7 +217,8 @@
       width:           100%;
     }
     &-item {
-      width: calc(33.3333% - 2.5%);
+      width:     31.8%;
+      max-width: 448px;
     }
   }
   .reviews {
