@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76.266" height="76.266" viewBox="0 0 76.266 76.266">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_137" data-name="Прямоугольник 137" width="76.266" height="76.266" fill="#ffc11e" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Сгруппировать_461" data-name="Сгруппировать 461" transform="translate(-395 -1338)">
+    <g id="Группа_масок_28" data-name="Группа масок 28" transform="translate(395 1338)" clip-path="url(#clip-path)">
+      <g id="workspace">
+        <path id="Контур_392" data-name="Контур 392" d="M22.343,49.155H13.406V44.687h8.937V40.218H8.937V35.749H22.343V31.281H13.406V26.812h8.937V22.343H8.937V17.875H22.343V13.406H13.406V8.937h8.937V0H0V73.106L22.343,50.465Zm0,0" fill="#ffc11e"/>
+        <path id="Контур_393" data-name="Контур 393" d="M67.931,77.844H63.462V68.906H58.993V82.312H54.525V68.906H50.056v8.937H45.587V68.906H41.119V82.312H36.65V68.906H32.181v8.937H27.712V68.906H26.4L4.06,91.548H77.166V68.906H67.931Zm0,0" transform="translate(-0.9 -15.282)" fill="#26263e"/>
+        <path id="Контур_394" data-name="Контур 394" d="M77.356,6.289l9.478,9.478,6.587-6.289L83.645,0Zm0,0" transform="translate(-17.156)" fill="#26263e"/>
+        <path id="Контур_395" data-name="Контур 395" d="M37.9,45.633l-4.74,14.218,14.218-4.74,1.953-1.953L39.85,43.68Zm0,0" transform="translate(-7.354 -9.687)" fill="#26263e"/>
+        <path id="Контур_396" data-name="Контур 396" d="M67.2,12.14l9.478,9.478L55.3,43l-9.478-9.478Zm0,0" transform="translate(-10.161 -2.692)" fill="#ffc11e"/>
+      </g>
+    </g>
+  </g>
+</svg>

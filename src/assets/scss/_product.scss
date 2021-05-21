@@ -1,0 +1,201 @@
+@import "variables";
+
+@media (any-hover: hover) {
+
+}
+
+.product {
+  &-cart {
+    padding-top: 13.65%;
+    .btn {
+      padding: 25px 31px;
+    }
+    &-inner {
+      display:         flex;
+      justify-content: space-between;
+    }
+    &-slider {
+      width: 48.24%;
+      .swiper-container {
+        &.swiper-product-top {
+          max-height: 27.82vw;
+        }
+        &.swiper-product {
+          .swiper-wrapper {
+            .swiper-slide {
+              height: 100%;
+              .product-slider-image {
+                height: 100%;
+              }
+            }
+            .swiper-slide-thumb-active {
+            }
+          }
+        }
+      }
+    }
+    &-description {
+      width: 40.4%;
+      h3 {
+        margin-bottom: 10px;
+      }
+      p {
+        display:       flex;
+        align-items:   center;
+        margin-bottom: 2rem;
+        img {
+          width:        18px;
+          margin-right: 14px;
+        }
+      }
+      .description-price {
+        margin-bottom: 7.8%;
+        span {
+          font-size: 2.125rem;
+        }
+        .old-price {
+          text-decoration: line-through;
+          margin-right:    10px;
+        }
+        .new-price {
+          color: $black;
+        }
+      }
+    }
+  }
+  .apartments {
+    padding: 9.38% 0;
+    h2 {
+      margin-bottom: 5%;
+    }
+    .container {
+      max-width: 1635px;
+    }
+    &-slider {
+      .swiper-container {
+        margin: 0 5.6%;
+      }
+      .swiper-button-next, .swiper-button-prev {
+        color: $primaryColor;
+        &:after {
+          font-size: 2.9rem;
+        }
+      }
+    }
+  }
+  .project {
+    padding-top:     9%;
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+    overflow:        hidden;
+    &-image {
+      position:  absolute;
+      top:       50%;
+      right:     0;
+      transform: translate(40%, -50%);
+    }
+    p {
+      font-size: 1.5rem;
+    }
+    &-inner {
+      //width: 49.23%;
+      max-width: 915px;
+    }
+    &-description {
+      margin-bottom:  4.5%;
+      h3 {
+        margin-bottom: 4.4%;
+      }
+      display:        flex;
+      flex-direction: column;
+      p {
+        margin-bottom: 1rem;
+        font-size:     1.5rem;
+        line-height:   1.2;
+      }
+      .more {
+        margin-left: auto;
+        background:  none;
+        border:      none;
+        font-size:   1.5rem;
+      }
+    }
+    .characteristic {
+      h3 {
+        margin-bottom: 6.5%;
+      }
+      h5 {
+        font-weight: 700;
+        color:       $primaryColor;
+      }
+      &-list {
+        display:   flex;
+        flex-wrap: wrap;
+      }
+      &-item {
+        min-width:   250px;
+        display:     flex;
+        align-items: center;
+        margin:      0 5% 9.5% 0;
+        &:last-child {
+          margin-right: 0;
+          min-width:    285px;
+        }
+        .item-image {
+          margin-right: 8%;
+        }
+      }
+    }
+    .realtor {
+      h3 {
+        margin-bottom: 5%;
+      }
+      h4 {
+        font-size: 2.125rem;
+      }
+      .btn {
+        padding: 25px 31px;
+      }
+      &-item {
+        display:       flex;
+        align-items:   center;
+        margin-bottom: 14.9%;
+        .item-image {
+          width:        25%;
+          max-width:    126px;
+          margin-right: 2.7%;
+        }
+        .item-description {
+          .description-contacts {
+            display:     flex;
+            align-items: center;
+            flex-wrap:   wrap;
+            img {
+              width:        1.75rem;
+              margin-right: 10px;
+            }
+            a {
+              display:       flex;
+              align-items:   center;
+              margin-right:  10px;
+              font-size:     1.75rem;
+              margin-bottom: 3px;
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+
+}
+
+@media screen and (max-width: 567px) {
+
+}
