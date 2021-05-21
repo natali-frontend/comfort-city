@@ -152,6 +152,10 @@ span {
   position:  relative;
 }
 
+.swiper-button-prev, .swiper-button-next {
+  color: $secondaryColor !important;
+}
+
 
 @media screen and (max-width: 991.98px) {
 
