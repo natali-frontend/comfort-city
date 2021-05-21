@@ -132,8 +132,8 @@
         color: #E9ECF1;
       }
       p {
-        max-width:   687px;
-        margin:      0 auto;
+        max-width: 687px;
+        margin:    0 auto;
       }
     }
     &-list {
@@ -239,7 +239,6 @@
         }
       }
       .swiper-button-next, .swiper-button-prev {
-        color: $secondaryColor;
         &:after {
           font-size: 2.9rem;
         }

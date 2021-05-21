@@ -1,14 +1,11 @@
 @import "./variables";
 
-
 @media (any-hover: hover) {
   .channel .btn:hover {
     color:  $primaryColor;
     border: 4px solid $primaryColor !important;
   }
 }
-
-@import "variables";
 
 .about-us {
   .banner {
@@ -48,7 +45,6 @@
     }
     &-description {
       max-width: 655px;
-      transform: translate(0, -6%);
     }
   }
   .founder {
