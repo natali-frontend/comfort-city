@@ -195,6 +195,12 @@
         justify-content: space-between;
         align-items:     center;
         flex-wrap:       wrap;
+        p {
+          display: flex;
+          justify-content: space-between;
+          align-items:     center;
+          flex-wrap:       wrap;
+        }
         span {
           font-size:   1.5rem;
           font-weight: 600;
