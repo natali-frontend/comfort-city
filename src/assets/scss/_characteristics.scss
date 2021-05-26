@@ -1,0 +1,43 @@
+@import "variables";
+
+@media (any-hover: hover) {
+
+}
+
+.characteristic {
+  h3 {
+    margin-bottom: 6.5%;
+  }
+  h5 {
+    font-weight: 700;
+    color:       $primaryColor;
+  }
+  p {
+    font-size: 1.75rem;
+  }
+  &-list {
+    display:   flex;
+    flex-wrap: wrap;
+  }
+  &-item {
+    min-width:   250px;
+    display:     flex;
+    align-items: center;
+    margin:      0 5% 9.5% 0;
+    &:last-child {
+      margin-right: 0;
+      min-width:    285px;
+    }
+    .item-image {
+      margin-right: 8%;
+    }
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+
+}
+
+@media screen and (max-width: 567px) {
+
+}
