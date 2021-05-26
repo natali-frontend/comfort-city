@@ -1,0 +1,40 @@
+@import "variables";
+
+@media (any-hover: hover) {
+
+}
+
+.single-blog {
+  &-content {
+    padding-bottom: 5.5%;
+    .single-blog-image {
+      margin-bottom: 2.9%;
+    }
+    .single-blog-description {
+      padding-bottom: 3.6%;
+      max-width:      875px;
+      margin-bottom:  2.9%;
+      h3 {
+        margin-bottom: 4.4%;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+    .characteristic {
+      width: 70%;
+      &-item {
+        margin: 0 4% 6.8% 0;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+
+}
+
+@media screen and (max-width: 567px) {
+
+}
