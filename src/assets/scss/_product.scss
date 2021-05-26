@@ -21,6 +21,7 @@
           max-height: 27.82vw;
         }
         &.swiper-product {
+          margin: 0 10.2%;
           .swiper-wrapper {
             .swiper-slide {
               height: 100%;
@@ -32,6 +33,9 @@
             }
           }
         }
+      }
+      .swiper-product-bottom {
+        position: relative;
       }
     }
     &-description {

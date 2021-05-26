@@ -28,3 +28,26 @@ const swiperProduct = new Swiper(".swiper-product", {
         swiper: swiperProductTop
     },
 });
+
+const swiperBasket = new Swiper(".swiper-basket", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
+//close
+const close = document.getElementsByClassName("close")[0];
+const basket = document.getElementsByClassName("basket")[0];
+close.addEventListener('click', function () {
+    basket.classList.remove("show")
+});
+
+// Outside click
+window.addEventListener('click', function (e) {
+    if (!document.getElementsByClassName('basket-inner')[0].contains(e.target) && !close.contains(e.target)) {
+        basket.classList.remove("show");
+    }
+});
