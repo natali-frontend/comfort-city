@@ -152,6 +152,11 @@ span {
   position:  relative;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 .swiper-button-prev, .swiper-button-next {
   color: $secondaryColor !important;
 }
