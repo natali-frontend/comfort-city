@@ -10,7 +10,25 @@
 
 .contacts {
   &-content {
-    padding: 15.21% 0 9%;
+    overflow: hidden;
+    padding:  15.21% 0 9%;
+    > img {
+      position:   absolute;
+      bottom:     -90%;
+      left:       0;
+      z-index:    -2;
+      object-fit: contain;
+    }
+    &:after {
+      content:    "";
+      position:   absolute;
+      bottom:     0;
+      left:       0;
+      width:      100%;
+      height:     100%;
+      background: linear-gradient(80deg, rgba(252, 249, 245, 0.8), rgba(255, 240, 233, 0.8));
+      z-index:    -1;
+    }
     h1 {
       margin-bottom: 3.4%
     }
