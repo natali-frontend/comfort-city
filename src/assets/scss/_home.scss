@@ -258,8 +258,6 @@
       .swiper-container {
         padding: 1%;
         margin:  0 5.84%;
-        .swiper-wrapper {
-        }
         .swiper-slide {
           height: initial;
         }
@@ -271,8 +269,8 @@
       }
     }
     &-item {
-      background:    #F0F1F3;
-      border-radius: 10px;
+      background:    $white;
+      border-radius: 20px;
       box-shadow:    -5px 10px 10px 0 rgba(38, 38, 62, 0.16);
       padding:       8.3% 9.4%;
       min-height:    100%;
