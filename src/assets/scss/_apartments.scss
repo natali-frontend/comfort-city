@@ -152,6 +152,7 @@
           display:       flex;
           align-items:   center;
           padding:       .7rem 1.95rem;
+          background:    $white;
           input {
             all:       unset;
             font-size: 1.25rem;
@@ -217,7 +218,7 @@
         align-items:     center;
         flex-wrap:       wrap;
         p {
-          display: flex;
+          display:         flex;
           justify-content: space-between;
           align-items:     center;
           flex-wrap:       wrap;
